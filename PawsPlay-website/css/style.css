@@ -1,0 +1,286 @@
+/*? reset */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0% auto;
+}
+a {
+  text-decoration: none;
+  color: rgba(250, 250, 250, 0.8);
+}
+
+ul {
+  list-style: none;
+}
+
+/*?global*/
+
+.d-flex {
+  display: flex;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+.margin-top-bottom {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.margin-logo {
+  margin-top: 7%;
+  margin-right: 6%;
+}
+
+.margin-logo-title {
+  margin-top: 3%;
+  margin-right: 2%;
+}
+.margin-left-logo {
+  margin-left: 10%;
+}
+.padding-top-bottom-3 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.padding-top-bottom-1 {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.padding-right-left {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-45 {
+  width: 45%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-100 {
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(16, 24, 40, 0.374);
+  width: 100%;
+  height: 100%;
+}
+
+.border-box {
+  border: 0.2px black solid;
+}
+
+.border-bottom {
+  border-bottom: 0.2px black solid;
+}
+.border-radius50 {
+  border-radius: 50px;
+}
+
+.bg-darkblue {
+  background-color: rgba(16, 24, 40, 1);
+}
+
+.color-white {
+  color: white;
+}
+.font-Kanit {
+  font-family: "Kanit", sans-serif;
+}
+.font-size-35 {
+  font-size: 35px;
+}
+
+/*?custom*/
+
+/*! nav*/
+
+.linkes {
+  margin-right: 20%;
+  margin-left: 4%;
+}
+.get-started-botton {
+  width: 13%;
+}
+.get-started-botton button {
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 7% 19%;
+  margin-right: 5%;
+}
+
+.logo h2 {
+  font-size: 23px;
+}
+
+a:hover {
+  color: rgba(16, 24, 40, 1);
+}
+
+.banner-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(16, 24, 40, 1);
+  transition: 0.5s;
+}
+
+.get-started-bottonh:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(16, 24, 40, 1);
+  transition: 0.5s;
+}
+/*! banner */
+.nav-section-wrapper {
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  background-size: 140% 100%;
+}
+
+.banner-text h2 {
+  font-size: 60px;
+}
+.banner-text p {
+  font-size: 16px;
+  width: 74%;
+}
+
+.banner-button {
+  background-color: rgba(210, 105, 30, 0);
+  border: 2px rgb(255, 255, 255) solid;
+  width: 15%;
+  padding: 1% 1%;
+}
+
+.banner-button:hover {
+  background-color: rgba(16, 24, 40, 1);
+  border: 2px rgb(16, 24, 40, 1) solid;
+  transition: 0.5s;
+}
+
+/*! shop */
+
+.search button {
+  border: none;
+  background-color: rgba(244, 244, 244, 1);
+  width: 20%;
+  text-align: left;
+  color: #10182861;
+  border-radius: 20px;
+  padding-left: 1%;
+}
+.view-more button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+}
+input {
+  background-color: rgba(244, 244, 244, 1);
+  border: none;
+}
+h3:hover {
+  color: white;
+  background-color: rgba(16, 24, 40, 1);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+/*! services */
+
+.right-side {
+  width: 65%;
+}
+
+.dog {
+  width: 35%;
+}
+.dog img {
+  height: 98%;
+}
+
+.over-lay-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  margin: 1%;
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.over-lay-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.over-lay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+.over-lay-text {
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.over-lay-container:hover .over-lay-text {
+  opacity: 1;
+}
+
+.dog-overlay {
+  height: 98%;
+}
+
+.dog-overlay img {
+  height: 100%;
+  object-fit: cover;
+}
+
+/*! about-us */
+/*! our-team*/
+/*! blog*/
+/*!get-in-touch*/
+/*! footer*/
